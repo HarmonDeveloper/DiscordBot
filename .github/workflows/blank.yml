@@ -1,6 +1,6 @@
 on: push
 jobs:
-  build-node:
+  bot:
     runs-on: ubuntu:latest
     container: node:16
     steps:
