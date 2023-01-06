@@ -25,7 +25,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Start Bot
         run: |
-          free -g
-          df -h
-          npm i discordjs
+          npm i
+          node index.js
 
