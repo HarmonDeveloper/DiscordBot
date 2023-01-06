@@ -27,5 +27,5 @@ jobs:
         run: |
           free -g
           df -h
-          npm i
-          node ./index.js
+          npm i discordjs
+
