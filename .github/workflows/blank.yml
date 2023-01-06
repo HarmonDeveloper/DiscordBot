@@ -27,5 +27,5 @@ jobs:
         run: |
           free -g
           df -h
-          npm -i
+          npm i
           node ./index.js
